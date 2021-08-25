@@ -1,6 +1,6 @@
 # cpp-vtest
 
-C++ version of **vtest**. The Python is [py-vtest](https://github.com/zhangtianli2006/py-vtest).
+C++ version of **vtest**. The Python version is [py-vtest](https://github.com/zhangtianli2006/py-vtest).
 
 ## Warning
 
