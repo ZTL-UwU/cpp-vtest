@@ -80,7 +80,7 @@ int main() {
 		printf("Making subtask#%d:\n", i + 1);
 		for (int j = 1; j <= m[i]; ++j) {
 			sprintf(buf, "%s.%d.%d.in", name, i + 1, j);
-			sprintf(buf2, "output.txt", name, i + 1, j);
+			sprintf(buf2, ".output.txt", name, i + 1, j);
 			int t = run(std_name, buf, buf2);
 			sumt += t;
 			if (t > maxt) {
